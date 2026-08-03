@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+venv/
+.venv/
+env/
+ENV/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+secrets/
+
+# Vector store (large + machine-local)
+chroma_db/
+*.chroma
+*.sqlite
+*.sqlite3
+
+# Models (downloaded by sentence-transformers — large)
+models_cache/
+.cache/
+sentence-transformers_cache/
+models--*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+
+# Build
+dist/
+build/
